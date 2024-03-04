@@ -39,6 +39,31 @@ body {
     white-space: nowrap;
 }
 
+/*  css buttons */
+.menu-btn {
+    background-color: #fff;
+    outline: 0;
+    border: 0;
+    padding: 0.2rem 0.4rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.menu-btn:hover {
+    opacity: 0.8;
+}
+
+.menu-btn svg {
+    height: 20px;
+    width: 20px;
+}
+
+.topbar.hide .topnav {
+    height: 0;
+}
+
+/* button over */
+
 .topnav {
     width: 100%;
     padding: 0;
